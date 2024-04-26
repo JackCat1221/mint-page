@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <header style={{width: '100vw', height: 80, background: '#333'}}></header>
         <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
       </body>
     </html>

@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@date-io/core": "^3.0.0",
+    "@date-io/date-fns": "^3.0.0",
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.4",
     "@emotion/server": "^11.11.0",
@@ -18,11 +20,18 @@
     "@mui/material": "^5.15.15",
     "@mui/material-nextjs": "^5.15.11",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/x-date-pickers": "^7.2.0",
+    "ahooks": "^3.7.11",
+    "date-fns": "^3.6.0",
+    "final-form": "^4.20.10",
+    "mui-rff": "^7.3.0",
     "next": "14.2.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-final-form": "^6.5.9",
     "styled-components": "^6.1.8",
-    "viem": "^2.9.25"
+    "viem": "^2.9.25",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",
