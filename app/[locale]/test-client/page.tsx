@@ -1,6 +1,7 @@
 import initTranslations from '../../i18n';
 import TranslationsProvider from '@/components/TranslationsProvider';
-
+import ExampleClientComponent from '@/components/ExampleClientComponent';
+import LanguageChanger from '@/components/LanguageChanger';
 const i18nNamespaces = ['test'];
 
 export default async function Home({ params: { locale } }: any) {
@@ -14,6 +15,8 @@ export default async function Home({ params: { locale } }: any) {
       <main>
         <h1>{t('header')}</h1>
       </main>
+      <ExampleClientComponent />
+      <LanguageChanger />
     </TranslationsProvider>
   );
 }
